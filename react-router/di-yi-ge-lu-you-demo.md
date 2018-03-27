@@ -82,7 +82,7 @@ class Home extends React.Component {
   }
 }
 
-export default Home ;
+export default Home;
 ```
 
 
