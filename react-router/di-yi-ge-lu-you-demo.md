@@ -82,7 +82,7 @@ class Home extends React.Component {
   }
 }
 
-export default About;
+export default AbHome out;
 ```
 
 
