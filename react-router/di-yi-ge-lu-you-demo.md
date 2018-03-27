@@ -85,4 +85,20 @@ class Home extends React.Component {
 export default Home;
 ```
 
+##### /src/components/home.js
+
+```js
+import React from 'react';
+
+class Home extends React.Component {
+  render() {
+    return (
+      <h1>我爱我家!</h1>
+    );
+  }
+}
+
+export default Home;
+```
+
 
