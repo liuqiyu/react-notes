@@ -61,8 +61,8 @@ import React from 'react';
 class About extends React.Component {
   render() {
     return (
-      <h1>关于我们!</h1>
-    );
+      <h1>这是about界面</h1>
+    )
   }
 }
 
