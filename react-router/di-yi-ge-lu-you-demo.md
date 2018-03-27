@@ -90,10 +90,10 @@ export default Home;
 ```js
 import React from 'react';
 
-class Productextends React.Component {
+class Product extends React.Component {
   render() {
     return (
-      <h1>我爱我家!</h1>
+      <h1>一个产品!</h1>
     );
   }
 }
