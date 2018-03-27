@@ -90,7 +90,7 @@ export default Home;
 ```js
 import React from 'react';
 
-class Home extends React.Component {
+class Productextends React.Component {
   render() {
     return (
       <h1>我爱我家!</h1>
