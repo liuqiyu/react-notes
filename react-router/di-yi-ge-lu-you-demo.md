@@ -28,9 +28,10 @@ import Home from './component/home';
 import Product from './component/product';
 import About from './component/about';
 
-class App extends React.Component {
-    render() {
-       <BrowserRouter>
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
         <div>
           <a href="/abc">家</a>
           <a href="/abc1">产品</a>
@@ -45,8 +46,10 @@ class App extends React.Component {
           <Route path="/abc2" component={About}/>
         </div>
       </BrowserRouter>
-    }
+    );
+  }
 }
+
 ```
 
 
