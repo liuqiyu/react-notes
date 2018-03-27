@@ -25,8 +25,8 @@ import React , { component } from 'react';
 import { BrowserRouter, Route, Link} from 'react-router-dom';
 
 import Home from './component/home';
-import Home from './component/Product';
-import Home from './component/home';
+import Product from './component/product';
+import About from './component/about';
 ```
 
 
