@@ -85,7 +85,7 @@ class Home extends React.Component {
 export default Home;
 ```
 
-##### /src/components/home.js
+##### /src/components/product.js
 
 ```js
 import React from 'react';
