@@ -58,15 +58,15 @@ export default App;
 ```js
 import React from 'react';
 
-class About extends React.Component {
+class Home extends React.Component {
   render() {
     return (
-      <h1>这是about界面</h1>
+      <h1>这是首页</h1>
     )
   }
 }
 
-export default About;
+export default Home;
 ```
 
 ##### /src/components/home.js
