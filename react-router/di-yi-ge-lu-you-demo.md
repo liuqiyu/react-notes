@@ -98,7 +98,7 @@ class Product extends React.Component {
   }
 }
 
-export default Home;
+export default Product;
 ```
 
 
