@@ -9,4 +9,5 @@
 * [demo](demo.md)
   * [一个时间组件](demo/yi-ge-shi-jian-cha-jian.md)
 * [redux](redux.md)
+  * [安装](redux/an-zhuang.md)
 
