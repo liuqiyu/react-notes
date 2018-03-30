@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [安装](an-zhuang.md)
 * [简介](chu-ti-yan.md)
 * [生命周期](sheng-ming-zhou-qi.md)
 * [react-router](react-router.md)
