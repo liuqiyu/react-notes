@@ -1,6 +1,6 @@
 # 初体验
 
-```JS
+```js
 npm install -g create-react-app
 
 create-react-app app
