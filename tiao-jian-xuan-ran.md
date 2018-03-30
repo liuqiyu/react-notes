@@ -23,7 +23,6 @@ function Page(props) {
   )
 }
 
-
 class Status extends React.Component {
   constructor (props) {
     super(props);
