@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [安装](an-zhuang.md)
-* [简介](chu-ti-yan.md)
+* [JSX](chu-ti-yan.md)
+* [元素渲染](yuan-su-xuan-ran.md)
 * [生命周期](sheng-ming-zhou-qi.md)
 * [react-router](react-router.md)
   * [安装](react-router/an-zhuang.md)
