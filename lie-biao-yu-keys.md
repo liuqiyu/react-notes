@@ -19,4 +19,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-
+> Keys可以在DOM中的某些元素被增加或删除的时候帮助React识别哪些元素发生了变化。因此你应当给数组中的每一个元素赋予一个确定的标识。
