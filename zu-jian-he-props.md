@@ -8,9 +8,12 @@
 import React from 'react';
 
 class Hello extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
-            <h1>hello,world!</h1>
+            <h1>hello,{this.props.value}!</h1>
         )
     }
 }
@@ -18,7 +21,7 @@ class Hello extends React.Component {
 class Welcome extends React.Component {
     render() {
         return (
-            <Hello value="123"></Hello> 
+            <Hello value="world"></Hello> 
         )
     }
 }
