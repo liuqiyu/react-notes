@@ -33,3 +33,22 @@ export default Welcome;
 
 > 提示：组件名称必须以大写字母开头。
 
+#### props的只读性
+
+>无论是使用函数或者类来声明一个组件，它决不能修改它的自己的props。
+
+```js
+
+// 纯函数 -> 它没有改变自己的输入值【a&b】。
+function sum(a, b) {
+    return a + b
+}
+
+// 非纯函数 -> 它改变自身的输入值
+function change(a) {
+    a++
+}
+``` 
+
+> 所有的组件必须像纯函数那样操作使用它们的props..
+
