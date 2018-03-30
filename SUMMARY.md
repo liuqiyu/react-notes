@@ -6,6 +6,7 @@
 * [元素渲染](yuan-su-xuan-ran.md)
 * [组件和props](zu-jian-he-props.md)
 * [state](state.md)
+  * [时钟案列](state/shi-zhong-an-lie.md)
 * [生命周期](sheng-ming-zhou-qi.md)
 * [react-router](react-router.md)
   * [安装](react-router/an-zhuang.md)
