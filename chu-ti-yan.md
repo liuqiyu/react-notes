@@ -66,3 +66,36 @@ function getGreeting(user) {
 }
 ```
 ##### JSX 属性
+
+你可以使用引号来定义以字符串为值的属性：
+
+`const element = <div tabIndex="0"></div>;`
+
+也可以使用大括号来定义以 JavaScript 表达式为值的属性：
+
+`const element = <img src={user.avatarUrl}></img>;`
+
+切记你使用了大括号包裹的 JavaScript 表达式时就不要再到外面套引号了。JSX 会将引号当中的内容识别为字符串而不是表达式。
+
+##### JSX 嵌套
+
+如果 JSX 标签是闭合式的，那么你需要在结尾处用 />, 就好像 XML/HTML 一样：
+
+`const element = <img src={user.avatarUrl} />;`
+
+JSX 标签同样可以相互嵌套：
+
+```js
+const element = (
+  <div>
+    <h1>Hello!</h1>
+    <h2>Good to see you here.</h2>
+  </div>
+);
+```
+
+>警告:
+
+>因为 JSX 的特性更接近 JavaScript 而不是 HTML , 所以 React DOM 使用 camelCase 小驼峰命名 来定义属性的>名称，而不是使用 HTML 的属性名称。
+
+>例如，class 变成了 className，而 tabindex 则对应着 tabIndex。
