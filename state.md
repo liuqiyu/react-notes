@@ -19,7 +19,7 @@ this.setState({
   counter: this.state.counter + this.props.increment,
 });
 
-// Correct
+// Correct正确
 this.setState((prevState, props) => ({
   counter: prevState.counter + props.increment
 }));
