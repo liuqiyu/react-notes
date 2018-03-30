@@ -13,5 +13,13 @@ class Hello extends React.Component {
     )
 }
 
+class Welcome extends React.Component {
+    render() {
+        return (
+            <Hello></Hello> 
+        )
+    }
+}
+
 export default Hello;
 ```
