@@ -1,5 +1,7 @@
 # 父子组件
 
+` this.props.Change(event.target.value)`
+
 ```js
 import React from 'react';
 
