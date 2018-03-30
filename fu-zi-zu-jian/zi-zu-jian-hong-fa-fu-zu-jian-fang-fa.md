@@ -1,4 +1,4 @@
-# 父子组件
+# 子组件触发父组件方法
 
 > ` this.props.Change(event.target.value)`
 
