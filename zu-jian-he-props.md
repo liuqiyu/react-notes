@@ -22,6 +22,7 @@ class Welcome extends React.Component {
     render() {
         return (
             <Hello value="world"></Hello> 
+            // 组合组件
             <Hello value="world"></Hello> 
         )
     }
