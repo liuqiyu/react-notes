@@ -30,7 +30,7 @@ class Toggle extends React.Component {
       isToggleOn: false,
     }
     
-    this.handleClick = this.handleClick.bind(this);
+    this.handleClick = this.handleClick.bind(this); /// 重点
   }
   
   handleClick() {
