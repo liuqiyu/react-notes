@@ -11,6 +11,22 @@ this.setState({
 })
 ``` 
 
+> 状态可能是异步的
+
+```
+// Wrong
+this.setState({
+  counter: this.state.counter + this.props.increment,
+});
+
+// Correct
+this.setState((prevState, props) => ({
+  counter: prevState.counter + props.increment
+}));
+```
+
+
+
 ##### 时钟案列
 
 ```
