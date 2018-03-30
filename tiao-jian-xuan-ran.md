@@ -79,3 +79,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+### 阻止渲染
+
+`return null;`
