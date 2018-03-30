@@ -23,5 +23,5 @@ class Welcome extends React.Component {
     }
 }
 
-export default Hello;
+export default Welcome ;
 ```
