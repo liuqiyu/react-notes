@@ -22,6 +22,7 @@ class Welcome extends React.Component {
     render() {
         return (
             <Hello value="world"></Hello> 
+            <Hello value="world"></Hello> 
         )
     }
 }
@@ -30,3 +31,4 @@ export default Welcome;
 ```
 
 > 提示：组件名称必须以大写字母开头。
+
