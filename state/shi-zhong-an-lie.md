@@ -1,7 +1,5 @@
 # 时钟案例
 
-##### 时钟案列
-
 ```
 import React from 'react';
 
