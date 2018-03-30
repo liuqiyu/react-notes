@@ -28,3 +28,5 @@ class Welcome extends React.Component {
 
 export default Welcome;
 ```
+
+> 提示：组件名称必须以大写字母开头。
