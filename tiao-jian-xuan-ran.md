@@ -4,7 +4,6 @@
 
 ```js
 import React from 'react';
-
 function Page(props) {
   // 判断条件
   if (props.isLogin) {
