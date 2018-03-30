@@ -21,8 +21,7 @@ function Page(props) {
   
   return (
   
-    {props.isLogin ? (<div>已登录</div>) : (<div>未登录</div>
-) }
+    {props.isLogin ? (<div>已登录</div>) : (<div>未登录</div>) }
   )
 }
 
