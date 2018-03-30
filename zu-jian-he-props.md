@@ -18,7 +18,7 @@ class Hello extends React.Component {
 class Welcome extends React.Component {
     render() {
         return (
-            <Hello></Hello> 
+            <Hello value="123"></Hello> 
         )
     }
 }
