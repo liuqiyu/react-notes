@@ -16,7 +16,7 @@
     * [实例](biao-dan/shi-li.md)
   * [状态提升](zhuang-tai-ti-sheng.md)
   * [父子组件](fu-zi-zu-jian.md)
-    * 子组件触发父组件方法
+    * [子组件触发父组件方法](fu-zi-zu-jian/zi-zu-jian-hong-fa-fu-zu-jian-fang-fa.md)
 * [react-router](react-router.md)
   * [安装](react-router/an-zhuang.md)
   * [第一个路由demo](react-router/di-yi-ge-lu-you-demo.md)
