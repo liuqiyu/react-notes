@@ -95,7 +95,15 @@ const element = (
 ```
 
 >警告:
-
 >因为 JSX 的特性更接近 JavaScript 而不是 HTML , 所以 React DOM 使用 camelCase 小驼峰命名 来定义属性的>名称，而不是使用 HTML 的属性名称。
-
 >例如，class 变成了 className，而 tabindex 则对应着 tabIndex。
+
+##### JSX 防注入攻击
+
+你可以放心地在 JSX 当中使用用户输入：
+
+```
+const title = response.potentiallyMaliciousInput;
+// 直接使用是安全的：
+const element = <h1>{title}</h1>;
+```
