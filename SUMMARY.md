@@ -15,6 +15,7 @@
   * [表单](biao-dan.md)
     * [实例](biao-dan/shi-li.md)
   * [状态提升](zhuang-tai-ti-sheng.md)
+  * [组合与继承](zu-he-yu-ji-cheng.md)
 * [react-router](react-router.md)
   * [安装](react-router/an-zhuang.md)
   * [第一个路由demo](react-router/di-yi-ge-lu-you-demo.md)
