@@ -2,11 +2,11 @@
 
 ### 组件的生命周期
 
-* Mounting:已插入真是Dom
+* `Mounting`:已插入真是Dom
 
-* Updating:正在被重新渲染
+* `Updating`:正在被重新渲染
 
-* Unmounting:已移除真是Dom
+* `Unmounting`:已移除真是Dom
 
 ##### 生命周期的方法
 
