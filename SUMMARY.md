@@ -4,6 +4,7 @@
 * [安装](an-zhuang.md)
 * [JSX](chu-ti-yan.md)
 * [元素渲染](yuan-su-xuan-ran.md)
+* [组件和props](zu-jian-he-props.md)
 * [生命周期](sheng-ming-zhou-qi.md)
 * [react-router](react-router.md)
   * [安装](react-router/an-zhuang.md)
