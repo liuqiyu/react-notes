@@ -1,6 +1,7 @@
 # state
 
 > 不要直接更新状态
+
 ```
 // Wrong
 this.state.comment = 'Hello';
