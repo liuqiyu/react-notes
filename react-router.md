@@ -20,3 +20,7 @@ React-router-dom提供了BrowserRouter, Route, Link等api,我们可以通过dom�
 #### HashRouter
 
 如果你使用过react-router2或3或者vue-router，你经常会发现一个现象就是url中会有个#，例如localhost:3000/#，HashRouter就会出现这种情况，它是通过hash值来对路由进行控制。如果你使用HashRouter，你的路由就会默认有这个#。
+
+#### BrowserRouter
+
+很多情况下我们则不是这种情况，我们不需要这个#，因为它看起来很怪，这时我们就需要用到BrowserRouter。
