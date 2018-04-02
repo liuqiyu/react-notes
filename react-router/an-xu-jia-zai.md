@@ -35,24 +35,4 @@ const Datalist = Loadable({
   loader: () => import('../../views/datalist/index'),
   loading: loadingComponent
 });
-const About = Loadable({
-  loader: () => import('../../views/about/index'),
-  loading: loadingComponent
-});
-const Clock = Loadable({
-  loader: () => import('../../views/clock/index'),
-  loading: loadingComponent
-});
-const Toggle = Loadable({
-  loader: () => import('../../views/toggle/index'),
-  loading: loadingComponent
-});
-const Status = Loadable({
-  loader: () => import('../../views/status/index'),
-  loading: loadingComponent
-});
-const Form = Loadable({
-  loader: () => import('../../views/form/index'),
-  loading: loadingComponent
-});
 ```
