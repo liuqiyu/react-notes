@@ -7,10 +7,11 @@ React Router 4.0：使用 babel-plugin-syntax-dynamic-import + react-loadable �
 首先确保已安装 babel-plugin-syntax-dynamic-import 和 react-loadable，未安装请先安装：
 
 ```js
+// 安装依赖
 npm i -D babel-plugin-syntax-dynamic-import
-
 npm i -S react-loadable
 
+// 核心代码
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Breadcrumb } from 'antd';
