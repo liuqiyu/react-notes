@@ -19,14 +19,6 @@ import Loadable from 'react-loadable';
 import Menu from './../../components/menu';
 import './app.css';
 
-// import Home from '../../views/home/index';
-// import Datalist from '../../views/datalist/index';
-// import About from '../../views/about/index';
-// import Clock from '../../views/clock/index';
-// import Toggle from '../../views/toggle/index';
-// import Status from '../../views/status/index';
-// import Form from '../../views/form/index';
-
 const loadingComponent = ({ isLoading, error }) => {
   // Handle the loading state
   if (isLoading) {
