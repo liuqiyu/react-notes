@@ -23,5 +23,6 @@
   * [安装](react-router/an-zhuang.md)
   * [第一个路由demo](react-router/di-yi-ge-lu-you-demo.md)
   * [嵌套路由写法](react-router/qian-tao-lu-you-xie-fa.md)
+  * [按需加载](react-router/an-xu-jia-zai.md)
 * [redux](redux.md)
 
