@@ -1,6 +1,5 @@
 # 按需加载
 
-
 #### 按需加载 一
 
 React Router 4.0：使用 babel-plugin-syntax-dynamic-import + react-loadable 实现按需加载
@@ -106,6 +105,7 @@ class App extends Component {
 }
 
 export default App;
-
-
 ```
+
+
+[代码链接](https://segmentfault.com/a/1190000012545692)
