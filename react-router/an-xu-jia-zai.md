@@ -35,4 +35,5 @@ const Datalist = Loadable({
   loader: () => import('../../views/datalist/index'),
   loading: loadingComponent
 });
+
 ```
