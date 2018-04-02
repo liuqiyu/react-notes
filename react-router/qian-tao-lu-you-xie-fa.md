@@ -24,7 +24,7 @@ class App extends Component {
           <XHeader></XHeader>
           <div className="content">
             <Switch>
-              <Route path='/page1' component={Page1}></Route>
+              <Route path='/page1' component={Page1}></Route> //有子路由不能加exact
               <Route path='/page2' exact component={Page2}></Route>
               <Route path='/page3' component={Page3}></Route>
             </Switch>
@@ -69,5 +69,47 @@ class Xheader extends React.Component {
 }
 
 export default Xheader;
+```
+
+##### page1.js
+
+```js
+import React from 'react';
+import { Route, Link } from'react-router-dom';
+
+const Message = ({ match }) => (
+  <div>
+    <h3>new messages</h3>
+    <h3>{match.params.id}</h3>
+  </div>
+)
+
+class Page1 extends React.Component {
+  constructor (props) {
+    super(props);
+  }
+  
+  componentDidMount() {
+    console.log(this.props.match)
+  }
+  
+  render() {
+    return (
+      <div>
+        <h1>
+          <Link to='/page1/messages/1'>message</Link>
+        </h1>
+        <h1>
+          <Link to='/page1'>about</Link>
+        </h1>
+        about
+        
+        <Route path={`${this.props.match.url}/messages/:id`} exact component={Message}/>
+      </div>
+    )
+  }
+}
+
+export default Page1;
 ```
 
