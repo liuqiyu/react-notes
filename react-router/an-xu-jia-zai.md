@@ -55,5 +55,4 @@ const Form = Loadable({
   loader: () => import('../../views/form/index'),
   loading: loadingComponent
 });
-
 ```
