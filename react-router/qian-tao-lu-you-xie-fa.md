@@ -2,9 +2,9 @@
 
 嵌套路由。路由的子路由，类似vue-router的`children`。
 
-##### demo1
+### demo1
 
-app.js
+##### app.js
 
 ```js
 import React, { Component } from 'react';
@@ -37,3 +37,37 @@ class App extends Component {
 
 export default App;
 ```
+
+##### xheader.js
+
+```js
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+class Xheader extends React.Component {
+  constructor (props) {
+    super(props);
+  }
+  
+  render() {
+    return (
+      <div className="nav">
+        <ul>
+          <li>
+            <Link to='/page1'>page1</Link>
+          </li>
+          <li>
+            <Link to='/page2'>page2</Link>
+          </li>
+          <li>
+            <Link to='/page3'>page3</Link>
+          </li>
+        </ul>
+      </div>
+    )
+  }
+}
+
+export default Xheader;
+```
+
