@@ -22,5 +22,6 @@
 * [react-router](react-router.md)
   * [安装](react-router/an-zhuang.md)
   * [第一个路由demo](react-router/di-yi-ge-lu-you-demo.md)
-* redux
+  * [嵌套路由写法](react-router/qian-tao-lu-you-xie-fa.md)
+* [redux](redux.md)
 
