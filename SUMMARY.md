@@ -25,4 +25,6 @@
   * [嵌套路由写法](react-router/qian-tao-lu-you-xie-fa.md)
   * [按需加载](react-router/an-xu-jia-zai.md)
 * [redux](redux.md)
+  * [安装](redux/an-zhuang.md)
+  * [笔记](redux/bi-ji.md)
 
