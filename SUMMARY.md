@@ -26,5 +26,6 @@
   * [按需加载](react-router/an-xu-jia-zai.md)
 * [redux](redux.md)
   * [安装](redux/an-zhuang.md)
-  * [笔记](redux/bi-ji.md)
+  * [实例](redux/shi-li.md)
+    * [导航栏选中](redux/shi-li/dao-hang-lan-xuan-zhong.md)
 
