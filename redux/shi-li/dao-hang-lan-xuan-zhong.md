@@ -111,22 +111,13 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <Button type="primary">Primary</Button>
         <h1>这是首页</h1>
-        <h1>这是首页</h1>
-        <h1>这是首页</h1>
-        <h1>这是首页</h1>
-        <h1>这是首页</h1>
-        <h1>这是首页</h1>
-        <h1>这是首页</h1>
-        <div className="img">
-          <img src={logo} alt=""/>
-        </div>
       </div>
     )
   }
 }
 
+// 重点 重点 重点 
 export default connect(state => ({
   text: state.text,
 }), {
