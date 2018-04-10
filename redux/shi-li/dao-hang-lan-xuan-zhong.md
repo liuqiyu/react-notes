@@ -22,7 +22,7 @@ npm install --save react-redux
 
 ### 代码
 
-* action.js
+* store/action.js
 
 ```js
 export const currentNavIndex = (text) => {
@@ -33,7 +33,7 @@ export const currentNavIndex = (text) => {
 };
 ```
 
-* reducer.js
+* store/reducer.js
 
 ```js
 const initState = {
@@ -52,6 +52,17 @@ const reducer = (state = initState, action) => {
 }
 
 export default reducer;
+```
+
+* store/index.js
+
+```js
+    import { createStore } from 'redux';
+    import reducer from './reducer';
+    
+    let store = createStore(reducer);
+    
+    export default store;
 ```
 
     
