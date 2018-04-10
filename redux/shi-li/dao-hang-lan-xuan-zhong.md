@@ -33,4 +33,12 @@ export const currentNavIndex = (text) => {
 };
 ```
 
+* reducer.js
+
+```js
+const initState = {
+    text: '',
+}
+```
+
     
