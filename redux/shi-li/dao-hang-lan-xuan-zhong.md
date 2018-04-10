@@ -69,7 +69,7 @@ export default reducer;
 
 ```js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';  // important
 import { Provider } from 'react-redux';
 import 'antd/dist/antd.css';
 import './style/reset.css';
