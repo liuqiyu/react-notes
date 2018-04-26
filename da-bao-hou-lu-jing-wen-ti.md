@@ -30,7 +30,7 @@ package.json
     "react-app-rewired": "^1.5.2",
     "sass-loader": "^7.0.1"
   },
-  "homepage": "./"
+  "homepage": "./"  // 这里！！！！！！！！
 }
 
 ```
