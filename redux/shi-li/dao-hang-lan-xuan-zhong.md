@@ -139,7 +139,7 @@ class XMenu extends React.Component {
   
   render() {
     console.log(this.props)
-    const { text } = this.props;
+    const { text } = this.props;    
     
     return (
       <aside className="ant-layout-sider">
@@ -152,27 +152,6 @@ class XMenu extends React.Component {
             </Menu.Item>
             <Menu.Item key="2" >
               <Link to="/form">表单</Link>
-            </Menu.Item>
-            <Menu.Item key="3" >
-              <Link to="/about">关于我们{text}</Link>
-            </Menu.Item>
-            <Menu.Item key="4" >
-              <Link to="/datalist">数据列表</Link>
-            </Menu.Item>
-            <Menu.Item key="5" >
-              <Link to="/clock">时钟</Link>
-            </Menu.Item>
-            <Menu.Item key="6" >
-              <Link to="/status">登录状态</Link>
-            </Menu.Item>
-            <Menu.Item key="7" >
-              <Link to="/toggle">toggle</Link>
-            </Menu.Item>
-            <Menu.Item key="8" >
-              <Link to="/counter">购物车加减</Link>
-            </Menu.Item>
-            <Menu.Item key="9" >
-              <Link to="/todolist">todolist</Link>
             </Menu.Item>
           </SubMenu>
         </Menu>
