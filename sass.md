@@ -27,3 +27,9 @@
     loaders: ['style-loader', 'css-loader', 'sass-loader'],
 }
 ```
+
+* 生产环境
+
+```js
+// webpack.config.prod.js
+```
