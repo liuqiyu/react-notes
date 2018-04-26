@@ -44,7 +44,6 @@ npm install babel-plugin-import --save-dev
     return config;
   };
   
-- import Button from 'antd-mobile/lib/button';
-+ import { Button } from 'antd-mobile';
+import { Button } from 'antd-mobile';
 ```
 
