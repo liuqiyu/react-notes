@@ -18,6 +18,7 @@
   * [父子组件](fu-zi-zu-jian.md)
     * [子组件触发父组件方法](fu-zi-zu-jian/zi-zu-jian-hong-fa-fu-zu-jian-fang-fa.md)
   * [引用图片](yin-yong-tu-pian.md)
+  * [打包后路径问题](da-bao-hou-lu-jing-wen-ti.md)
 * [进阶](jin-jie.md)
   * [使用 PropTypes 进行类型检查](jin-jie/shi-yong-proptypes-jin-xing-lei-xing-jian-cha.md)
 * [react-router](react-router.md)
