@@ -8,6 +8,7 @@ $ npm install antd-mobile --save
 ```
 
 * package.json
+
 ```js
 /* package.json */
 $ npm install react-app-rewired --save-dev
