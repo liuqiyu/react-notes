@@ -5,8 +5,6 @@
 
 ```js
 $ npm install antd-mobile --save
-
-
 ```
 
 * package.json
