@@ -33,3 +33,18 @@ module.exports = function override(config, env) {
 };
 ```
 
+* 使用 babel-plugin-import, babel-plugin-import 是一个用于按需加载组件代码和样式的 babel 插件（原理），现在我们尝试安装它并修改 config-overrides.js 文件。
+
+```js
+npm install babel-plugin-import --save-dev
+
++ const { injectBabelPlugin } = require('react-app-rewired');
+  module.exports = function override(config, env) {
++   config = injectBabelPlugin(['import', { libraryName: 'antd-mobile', style: 'css' }], config);
+    return config;
+  };
+  
+  - import Button from 'antd-mobile/lib/button';
++ import { Button } from 'antd-mobile';
+```
+
