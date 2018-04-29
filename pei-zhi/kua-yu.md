@@ -14,3 +14,7 @@
 ```
 
 然后访问：`http://localhost:3000/api/what/fuck`
+
+## 生产环境
+
+请后端配置跨域
