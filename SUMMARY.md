@@ -33,4 +33,6 @@
 * [sass](sass.md)
 * [Ant Design](ant-design.md)
   * [Ant Design Mobile](ant-design/ant-design-mobile.md)
+* [配置](pei-zhi.md)
+  * [跨域](pei-zhi/kua-yu.md)
 
