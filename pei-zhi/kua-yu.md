@@ -13,4 +13,4 @@
   }
 ```
 
-然后访问：http://localhost:3000/api/what/fuck
+然后访问：`http://localhost:3000/api/what/fuck`
