@@ -30,6 +30,7 @@
   * [安装](redux/an-zhuang.md)
   * [实例](redux/shi-li.md)
     * [导航栏选中](redux/shi-li/dao-hang-lan-xuan-zhong.md)
+  * [API](redux/zhi-shi-dian.md)
 * [sass](sass.md)
 * [Ant Design](ant-design.md)
   * [Ant Design Mobile](ant-design/ant-design-mobile.md)
