@@ -14,12 +14,12 @@
 **example**
 
 ```
-  ReactDOM.render(
-    <Provider store={store}>
-      <Component />
-    </Provider>,
-    document.getElementById('root')
-  );
+ReactDOM.render(
+  <Provider store={store}>
+    <Component />
+  </Provider>,
+  document.getElementById('root')
+);
 ```
 
 
