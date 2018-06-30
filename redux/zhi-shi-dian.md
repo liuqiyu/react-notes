@@ -21,5 +21,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+<hr/>
+
+#### `connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])`
+
+
+
 
 
