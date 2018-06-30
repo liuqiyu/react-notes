@@ -11,4 +11,15 @@
 * `store`： 应用中唯一的状态store
 * `children`： 应用的子组件
 
+**example**
+
+```
+  ReactDOM.render(
+    <Provider store={store}>
+      <Component />
+    </Provider>,
+    document.getElementById('root')
+  );
+```
+
 
