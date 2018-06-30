@@ -28,6 +28,10 @@ ReactDOM.render(
 **props**
 
 * `[mapStateToProps]`：如果制定了此参数，订阅了`react store`,任何时候`store`更新，`mapStateToProps`将会被调用。必须是一个普通的对象。如果不想订阅`react store`更新，可以通过`null`或`undefined`取代`mapStateToProps`;
+* `[mapDispatchToProps]`：
+* `[mergeProps]`：
+* `[options]`：
+
 ```js
 export default connect(state => ({
   proData: state.proData,
@@ -35,9 +39,7 @@ export default connect(state => ({
   getProData, 
 })(Production);
 ```
-* `[mapDispatchToProps]`：
-* `[mergeProps]`：
-* `[options]`：
+
 
 
 
