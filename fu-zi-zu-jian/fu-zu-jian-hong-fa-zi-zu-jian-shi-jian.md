@@ -8,6 +8,11 @@
 ```js
 
 class Parent extends Component {
+
+    componentDidMoun() {
+        this.refs.list.getData();
+    }
+    
     render() (
         <div>
             <child ref="list"></child>
