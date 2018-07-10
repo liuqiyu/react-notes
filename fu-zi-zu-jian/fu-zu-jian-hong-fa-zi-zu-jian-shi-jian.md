@@ -22,7 +22,13 @@ class Parent extends Component {
 
 ```js
 class Child extends Component {
-    contructor
+    constructor (props) {
+        super(props);
+        this.getData = this.getData.bind(this);
+    }
+    
+    getData() {};
+    
     render() (
         <div></div>
     )
