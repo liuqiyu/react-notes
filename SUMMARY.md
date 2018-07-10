@@ -17,6 +17,7 @@
   * [状态提升](zhuang-tai-ti-sheng.md)
   * [父子组件](fu-zi-zu-jian.md)
     * [子组件触发父组件方法](fu-zi-zu-jian/zi-zu-jian-hong-fa-fu-zu-jian-fang-fa.md)
+    * [父组件触发子组件事件](fu-zi-zu-jian/fu-zu-jian-hong-fa-zi-zu-jian-shi-jian.md)
   * [引用图片](yin-yong-tu-pian.md)
   * [打包后路径问题](da-bao-hou-lu-jing-wen-ti.md)
 * [进阶](jin-jie.md)
