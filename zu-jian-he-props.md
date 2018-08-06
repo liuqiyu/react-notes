@@ -54,5 +54,17 @@ function change(a) {
 
 #### 父组件异步传递
 
+父组件异步获取数据，在子组件中通过props获取不到最新传递过来的值？解决方案如下：
+
+```js
+componentWillReceiveProps = (nextProps) => {
+        setTimeout(() => {
+            this.setState({
+                screenMessage: nextProps.screenMessage,
+            });
+        });
+    };
+```
+
 
 
